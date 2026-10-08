@@ -1,4 +1,6 @@
-# Agenda inteligente
+# EnfoqueBalanc
+
+*Organiza tu tiempo. Equilibra tus finanzas.*
 
 Aplicación para estudiantes, trabajadores y técnicos independientes. Organización personal y finanzas con herramientas para reducir la procrastinación.
 
@@ -23,3 +25,4 @@ Flutter / Dart, Android, Windows, llama.cpp / Qwen, Keycloak y PostgreSQL en Doc
 ## Entrega pública
 
 Las carpetas `codigo/`, `documentacion/` y `capturas/` se incorporarán al preparar la entrega. El código de la app continúa en su repositorio local hasta entonces. Uso local gratuito; sincronización mediante suscripción mensual con precio por definir.
+
