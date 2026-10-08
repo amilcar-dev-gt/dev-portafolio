@@ -12,7 +12,7 @@ Formación en Ingeniería en Sistemas en la Universidad Mariano Gálvez de Guate
 
 ## Organización
 
-Cada aplicación tiene su carpeta dentro de `proyectos/`, con presentación, documentación, capturas y código al estar listo para publicación. Este README sirve como catálogo. Los instaladores se distribuirán mediante Releases identificando aplicación, versión y plataforma.
+Cada aplicación tiene su carpeta dentro de `proyectos/`, con presentación, documentación de uso, capturas y fragmentos seleccionados de código. Este README sirve como catálogo. Los instaladores se distribuirán mediante Releases identificando aplicación, versión y plataforma.
 
 ## Contacto
 
@@ -24,5 +24,6 @@ SynapMedixus conserva su código en su propio repositorio privado. Aquí solo se
 
 ## Presentación profesional
 
-[Sitio web](https://amilcar-dev-gt.github.io/dev-portafolio/) · Publicado desde la carpeta docs con GitHub Pages.
+[Sitio web](https://amilcar-dev-gt.github.io/) · Presentación principal en GitHub Pages.
+
 
