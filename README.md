@@ -21,3 +21,8 @@ Cada aplicación tiene su carpeta dentro de `proyectos/`, con presentación, doc
 SynapMedixus conserva su código en su propio repositorio privado. Aquí solo se presenta su descripción; no se copia su código ni se ofrece acceso público al SaaS.
 
 
+
+## Presentación profesional
+
+[Sitio web](https://amilcar-dev-gt.github.io/dev-portafolio/) · Publicado desde la carpeta docs con GitHub Pages.
+
