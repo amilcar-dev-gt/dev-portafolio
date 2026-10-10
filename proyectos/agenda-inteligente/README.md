@@ -2,28 +2,39 @@
 
 *Organiza tu tiempo. Equilibra tus finanzas.*
 
-Aplicación para estudiantes, trabajadores y técnicos independientes. Organización personal y finanzas con herramientas para reducir la procrastinación.
+EnfoqueBalanc combina agenda y finanzas personales en una aplicación para Android y Windows. Está pensada para estudiantes, empleados y trabajadores independientes que quieren organizar sus compromisos, avanzar paso a paso y entender mejor su flujo de dinero.
 
-**Estado:** desarrollo y pruebas locales; sin versión pública ni instaladores disponibles.
+**Estado:** validación local en curso. No hay instaladores ni sincronización pública disponibles.
 
-## Implementado
+## Qué ofrece
 
-- Agenda, notas y calendario diario, semanal y mensual.
-- Finanzas manuales en GTQ: ingresos, gastos, presupuestos, gastos fijos, créditos, cuentas por pagar y por cobrar.
-- Historial local cifrado y cuatro temas.
-- Modelo Qwen integrado para dividir tareas.
-- Registro y MFA probado contra Docker local.
+- Agenda separada en **Historial**, **Hoy** y **Planificación**, con tareas, actividades de jornada y notas vinculadas.
+- Repetición semanal en los días elegidos hasta una fecha final; los cambios o eliminaciones pueden aplicarse a la fecha actual o a las actividades futuras de la serie.
+- Calendario de día, semana y mes. El día usa una vista Gantt de 24 horas; hoy se desplaza a la hora actual y otras fechas se recorren manualmente.
+- Finanzas personales en quetzales: ingresos, gastos, compromisos recurrentes, presupuestos, créditos y cuentas por cobrar.
+- Registro de aportes y retiros de ahorro con un saldo informativo separado del dinero disponible para gastos.
+- Cuatro temas visuales: claro, oscuro, azul claro y rosa.
+- Acompañamiento en español con IA local: motivación, reflexión, división de actividades extensas en pasos pequeños y orientación financiera. La IA sugiere; no registra pagos ni mueve dinero.
+- Historial local cifrado, disponible sin cuenta ni conexión a un servidor.
 
-## Pendiente
+## IA en el dispositivo
 
-Sincronización real, cobros, acceso con Google, recuperación de MFA, disparadores automáticos de motivación y orientación financiera, pruebas físicas y paquetes firmados.
+La aplicación integra un modelo Qwen compacto que se ejecuta localmente mediante llama.cpp. Puede ayudar a dividir actividades de al menos una hora y generar orientación contextual según los datos disponibles. Las operaciones financieras y los estados de las tareas se controlan con reglas de la aplicación; un texto de IA nunca marca una tarea como realizada ni registra un movimiento.
+
+## Guía y capturas
+
+- [Guía de uso](../../docs/guia-enfoquebalanc.html)
+- [Presentación detallada](../../docs/agenda-inteligente.html)
+- Captura de primera apertura en Android: `../../docs/capturas/enfoquebalanc-inicio-android.png`
+
+Las próximas capturas públicas se tomarán con información demostrativa, sin datos personales ni financieros reales.
 
 ## Tecnologías
 
-Flutter / Dart, Android, Windows, llama.cpp / Qwen, Keycloak y PostgreSQL en Docker para autenticación de prueba.
+Flutter · Dart · Android · Windows · llama.cpp · Qwen.
 
-## Entrega pública
+## Disponibilidad
 
-Se publicarán funcionalidades detalladas, tecnologías, capturas, documentación de uso, instaladores y versiones verificadas. Los ejemplos seleccionados serán fragmentos ilustrativos, sin una aplicación completa compilable. El código completo, las pruebas, notas y documentación técnica se mantendrán en el repositorio privado oficial. Uso local gratuito; sincronización mediante suscripción mensual con precio por definir.
+La edición actual está diseñada para uso local gratuito. El inicio de sesión y la sincronización entre dispositivos no se ofrecen en esta etapa; una suscripción futura no está disponible para compra. Las descargas se anunciarán cuando existan paquetes firmados y pruebas de publicación aprobadas.
 
-
+El código fuente completo, las pruebas, el modelo, la documentación técnica interna y la configuración de desarrollo permanecen privados. Este catálogo no contiene un proyecto compilable. Las dependencias y el modelo de terceros conservan sus licencias y avisos correspondientes.

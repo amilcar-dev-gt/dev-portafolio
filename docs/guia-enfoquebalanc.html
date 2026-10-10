@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guía pública de uso de EnfoqueBalanc: agenda, calendario, finanzas, ahorro y acompañamiento con IA local.">
+  <meta name="theme-color" content="#f6f8f5">
+  <title>Guía de uso · EnfoqueBalanc</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Amílcar Dev<span>◦</span></a>
+    <nav aria-label="Principal">
+      <a href="agenda-inteligente.html">← EnfoqueBalanc</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main class="detail guide">
+    <p class="label">GUÍA DE USO</p>
+    <h1>Empieza con un paso a la vez</h1>
+    <p class="intro">Una orientación para conocer los flujos de EnfoqueBalanc. La aplicación sigue en validación local y aún no tiene descargas públicas.</p>
+
+    <nav class="guide-index" aria-label="Contenido de la guía">
+      <a href="#primeros-pasos">Primeros pasos</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#calendario">Calendario</a>
+      <a href="#finanzas">Finanzas</a>
+      <a href="#ahorro">Ahorro y créditos</a>
+      <a href="#ia">Acompañamiento con IA</a>
+      <a href="#privacidad">Datos y disponibilidad</a>
+    </nav>
+
+    <section id="primeros-pasos" class="guide-section">
+      <p class="label">01 · PRIMEROS PASOS</p>
+      <h2>Abre la agenda y prepara el acompañamiento</h2>
+      <ol>
+        <li>Abre EnfoqueBalanc y entra a <strong>Mi agenda</strong>. La pantalla de agenda carga mientras el modelo local se verifica y se prepara en segundo plano.</li>
+        <li>Usa el menú para pasar entre agenda, calendario, finanzas y configuración.</li>
+        <li>En configuración puedes elegir tema claro, oscuro, azul claro o rosa.</li>
+        <li>Activa los avisos del sistema cuando quieras recibir recordatorios de las tareas programadas.</li>
+      </ol>
+    </section>
+
+    <section id="agenda" class="guide-section">
+      <p class="label">02 · AGENDA</p>
+      <h2>Enfócate en el día que tienes delante</h2>
+      <p>La agenda ofrece tres filtros para mantener clara la lista:</p>
+      <dl class="guide-definitions">
+        <div><dt>Hoy</dt><dd>Actividades de la fecha actual, incluidas las completadas hasta que cambie el día.</dd></div>
+        <div><dt>Historial</dt><dd>Actividades de fechas anteriores, de las más recientes hacia atrás.</dd></div>
+        <div><dt>Planificación</dt><dd>Actividades futuras, empezando por las próximas.</dd></div>
+      </dl>
+      <h3>Crear una actividad</h3>
+      <ol>
+        <li>Presiona <strong>Nueva tarea</strong> e ingresa el nombre, la descripción y el resultado esperado.</li>
+        <li>Define el día y el horario. Si la actividad debe repetirse, selecciona los días de la semana y la fecha final.</li>
+        <li>Activa <strong>Recibir ayuda</strong> si quieres que la IA proponga subtareas para una actividad con horario de al menos una hora.</li>
+        <li>Guarda la actividad. Las tareas completadas conservan su estado de manera independiente.</li>
+      </ol>
+      <h3>Editar o eliminar una repetición</h3>
+      <p>Al cambiar una serie, elige si el ajuste corresponde solo a esa fecha o a esa fecha y las futuras. Las actividades completadas no se editan ni eliminan: primero hay que reactivarlas.</p>
+      <h3>División en subtareas</h3>
+      <p>La actividad original conserva sus primeros diez minutos. La primera subtarea empieza después; las siguientes se distribuyen en tramos de treinta minutos. Cuando queda un tramo corto, la aplicación lo conserva sin crear una subtarea demasiado breve. Puedes deshacer la división mientras sus subtareas estén pendientes.</p>
+    </section>
+
+    <section id="calendario" class="guide-section">
+      <p class="label">03 · CALENDARIO</p>
+      <h2>Revisa la distribución de tus actividades</h2>
+      <ul>
+        <li><strong>Día:</strong> diagrama Gantt por horas para las 24 horas. En la fecha de hoy, el contenido se desplaza automáticamente hasta la hora actual; otras fechas se desplazan manualmente.</li>
+        <li><strong>Semana:</strong> siete columnas, una por cada día de la semana visible.</li>
+        <li><strong>Mes:</strong> calendario mensual en cuadrícula.</li>
+      </ul>
+      <p>Selecciona una actividad del calendario para abrirla en la agenda y revisar sus datos. Las actividades completadas conservan su posición y se muestran tachadas.</p>
+    </section>
+
+    <section id="finanzas" class="guide-section">
+      <p class="label">04 · FINANZAS</p>
+      <h2>Registra movimientos y consulta el período</h2>
+      <ol>
+        <li>En <strong>Nuevo movimiento</strong>, registra manualmente un ingreso o un gasto con importe, fecha y concepto.</li>
+        <li>Los movimientos se muestran agrupados en gastos e ingresos. Las tarjetas superiores resumen el mes seleccionado.</li>
+        <li>Los gastos fijos pueden generar sus compromisos futuros por separado. Marcar una fecha como realizada no cambia el estado de otras fechas de la misma serie.</li>
+        <li>Usa presupuestos, créditos y cuentas por cobrar para organizar las obligaciones y cobros que registras.</li>
+      </ol>
+      <p>Los resúmenes se calculan a partir de los datos del período seleccionado. La IA puede orientar, pero las operaciones se registran con una acción explícita del usuario.</p>
+    </section>
+
+    <section id="ahorro" class="guide-section">
+      <p class="label">05 · AHORRO Y CRÉDITOS</p>
+      <h2>Separa el dinero reservado del dinero de uso</h2>
+      <p>El ahorro se registra como aportes manuales y retiros manuales. La tarjeta muestra el saldo anterior, los aportes del mes y el ahorro acumulado. Los aportes no son ingresos disponibles; un retiro sí se registra como gasto.</p>
+      <p>En un crédito puedes guardar las condiciones pactadas y registrar cada cuota con el abono a capital que conoces. La aplicación refleja el saldo restante a partir de ese importe; los intereses y cargos pueden variar según el contrato del banco.</p>
+    </section>
+
+    <section id="ia" class="guide-section">
+      <p class="label">06 · ACOMPAÑAMIENTO CON IA</p>
+      <h2>Sugerencias para ayudar a decidir el próximo paso</h2>
+      <p>El modelo local puede ofrecer frases de motivación, reflexiones y sugerencias de ahorro o pago a partir del contexto agregado disponible. La calidad y precisión de las sugerencias mejora a medida que se registran datos.</p>
+      <p>La IA no completa actividades, registra transacciones, altera saldos ni reemplaza las condiciones establecidas por bancos o acreedores. Revisa cada sugerencia y realiza manualmente cualquier cambio que decidas aceptar.</p>
+    </section>
+
+    <section id="privacidad" class="guide-section">
+      <p class="label">07 · DATOS Y DISPONIBILIDAD</p>
+      <h2>Uso local en esta etapa</h2>
+      <ul>
+        <li>La agenda, las finanzas y el ahorro se almacenan cifrados en el dispositivo.</li>
+        <li>Las funciones locales no requieren una cuenta ni sincronizan datos a otros equipos.</li>
+        <li>Las suscripciones, la autenticación y la sincronización todavía no se ofrecen.</li>
+        <li>El instalador se publicará después de completar la validación y firmar la versión de distribución.</li>
+      </ul>
+      <div class="actions">
+        <a class="button" href="agenda-inteligente.html">Ver la presentación ↗</a>
+        <a class="button secondary" href="index.html#proyectos">Volver al portafolio</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>© 2026 Amílcar Dev</span>
+    <a href="index.html">Volver al inicio</a>
+    <span>Amatitlán, Guatemala</span>
+  </footer>
+</body>
+</html>

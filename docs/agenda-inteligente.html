@@ -1,2 +1,109 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EnfoqueBalanc · Amílcar Dev</title><link rel="stylesheet" href="styles.css"></head><body><header><a class="brand" href="index.html">Amílcar Dev</a><nav aria-label="Principal"><a href="index.html#proyectos">← Proyectos</a><a href="index.html#contacto">Contacto</a></nav></header><main class="detail"><p class="label">ANDROID + WINDOWS</p><h1>EnfoqueBalanc</h1><span class="status">En desarrollo · pruebas locales</span><p class="intro">Organiza tu tiempo. Equilibra tus finanzas.</p><h2>Funcionalidades implementadas</h2><ul><li>Agenda con tareas, actividades paralelas y notas vinculadas opcionalmente.</li><li>Calendario mensual, semanal y resumen diario por horas.</li><li>Ingresos, gastos, presupuestos, gastos fijos, créditos y cuentas por cobrar en quetzales.</li><li>Historial local cifrado y cuatro temas visuales.</li><li>Modelo de IA integrado para dividir tareas en actividades pequeñas.</li><li>Registro y autenticación MFA contra un servidor local de pruebas.</li></ul><h2>Antes de la publicación</h2><p>Continúan las pruebas de Android y Windows y la validación de avisos nativos. Están pendientes la sincronización entre dispositivos, los cobros, el acceso con Google, la recuperación de MFA y los disparadores automáticos de motivación y orientación financiera.</p><h2>Modalidad prevista</h2><p>Uso local gratuito. La sincronización entre dispositivos se ofrecerá mediante suscripción mensual, con precio por definir.</p><h2>Código y descargas</h2><p>El código y los paquetes se incorporarán al portafolio cuando esté preparada la versión pública. Las descargas todavía no están disponibles.</p><a class="button" href="https://github.com/amilcar-dev-gt/dev-portafolio">Ver portafolio en GitHub ↗</a></main><footer><span>© 2026 Amílcar Dev</span><a href="index.html">Volver al inicio</a></footer></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conoce EnfoqueBalanc: agenda personal, calendario, finanzas e inteligencia artificial local para Android y Windows.">
+  <meta name="theme-color" content="#f6f8f5">
+  <title>EnfoqueBalanc · Amílcar Dev</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Amílcar Dev<span>◦</span></a>
+    <nav aria-label="Principal">
+      <a href="index.html#proyectos">← Proyectos</a>
+      <a href="guia-enfoquebalanc.html">Guía de uso</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main class="detail">
+    <section class="detail-hero">
+      <p class="label">ANDROID · WINDOWS · USO LOCAL</p>
+      <h1>EnfoqueBalanc</h1>
+      <p class="intro">Organiza tu tiempo. Equilibra tus finanzas.</p>
+      <span class="status">Validación local en curso</span>
+      <p>Una aplicación para planificar compromisos, llevar el control manual de ingresos y gastos y recibir acompañamiento para avanzar paso a paso.</p>
+    </section>
 
+    <section class="screenshot-section" aria-labelledby="capturas">
+      <p class="label">VISTA DE LA APLICACIÓN</p>
+      <h2 id="capturas">Una agenda clara desde el inicio</h2>
+      <figure class="screenshot">
+        <img src="capturas/enfoquebalanc-inicio-android.png" alt="Primera apertura de EnfoqueBalanc en Android, con la agenda vacía y el mensaje Un paso a la vez" width="1080" height="2400">
+        <figcaption>Captura real de la primera apertura en Android, con datos de demostración vacíos.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <p class="label">FUNCIONALIDADES</p>
+      <h2>Tiempo y finanzas en un mismo lugar</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Agenda enfocada</h3>
+          <p>La vista principal separa el historial, las actividades de hoy y la planificación futura. Las tareas completadas permanecen visibles durante el día y pasan al historial cuando cambia la fecha.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Actividades recurrentes</h3>
+          <p>Programa una actividad en varios días de la semana hasta una fecha final. Al editar o eliminar una serie puedes elegir si afecta solo a esa fecha o también a sus actividades futuras.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Calendario flexible</h3>
+          <p>Consulta el mes, los siete días de la semana o el día en una distribución Gantt de 24 horas. La vista de hoy se posiciona alrededor de la hora actual; las otras fechas se recorren manualmente.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Control financiero manual</h3>
+          <p>Registra ingresos y gastos, revisa compromisos recurrentes, créditos, cuentas por cobrar, presupuestos y ahorros. Los resúmenes corresponden al período elegido y la IA no mueve dinero.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Ahorro por separado</h3>
+          <p>Registra aportes y retiros manualmente. El saldo ahorrado se consulta aparte del dinero de uso diario, para distinguir el fondo reservado del efectivo disponible.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Tu forma de verla</h3>
+          <p>Elige entre cuatro temas: claro, oscuro, azul claro y rosa. Las pantallas se adaptan al ancho del teléfono o la computadora.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="ai-section">
+      <p class="label">ACOMPAÑAMIENTO LOCAL</p>
+      <h2>IA que acompaña, con operaciones bajo tu control</h2>
+      <p>Un modelo Qwen se ejecuta en el dispositivo mediante llama.cpp. Puede proponer pasos pequeños para una actividad extensa y generar frases de motivación, reflexiones y sugerencias financieras según el contexto disponible.</p>
+      <p>Las tareas, pagos y movimientos siguen reglas explícitas de la aplicación y requieren acciones del usuario. Una sugerencia no completa una tarea ni registra una transacción.</p>
+    </section>
+
+    <section>
+      <p class="label">PRIVACIDAD Y ALCANCE</p>
+      <h2>Diseñada primero para uso local</h2>
+      <ul>
+        <li>El historial se guarda cifrado en el dispositivo.</li>
+        <li>La agenda y las finanzas se pueden usar sin cuenta ni sincronización en la nube.</li>
+        <li>El modelo integrado no necesita enviar tus tareas al servicio de IA en la nube.</li>
+        <li>La sincronización entre dispositivos y las suscripciones aún no están disponibles.</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="label">TECNOLOGÍAS</p>
+      <h2>Aplicación multiplataforma con IA en el dispositivo</h2>
+      <p>Flutter y Dart para Android y Windows. llama.cpp ejecuta localmente el modelo Qwen que acompaña algunas funciones de organización y orientación.</p>
+    </section>
+
+    <section class="availability">
+      <p class="label">DISPONIBILIDAD</p>
+      <h2>En validación local</h2>
+      <p>Las pruebas de uso y rendimiento continúan. Todavía no se ofrecen instaladores ni una versión pública. La guía permite conocer el flujo previsto de la aplicación; las capturas adicionales y las descargas se añadirán cuando se apruebe una versión lista para distribuir.</p>
+      <div class="actions">
+        <a class="button" href="guia-enfoquebalanc.html">Leer la guía de uso ↗</a>
+        <a class="button secondary" href="index.html#proyectos">Volver al portafolio</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>© 2026 Amílcar Dev</span>
+    <a href="index.html">Volver al inicio</a>
+    <span>Amatitlán, Guatemala</span>
+  </footer>
+</body>
+</html>
